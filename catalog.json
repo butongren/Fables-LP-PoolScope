@@ -1,0 +1,988 @@
+{
+  "value": {
+    "pools": [
+      {
+        "id": "0x7990aad9e8fb048f49a155a7df5603db0366f0657035b78eb4196395cccb3dcd",
+        "base": {
+          "address": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+          "symbol": "NVDA",
+          "decimals": 18,
+          "uiMultiplier": 1000775159164630595,
+          "multiplier": "1000775159164630595"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x66622f77B797D506e5376F7798b67ab288966080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "NVIDIA Corporation",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 24150000000.0
+        }
+      },
+      {
+        "id": "0x8674c1c5544f3c9563565b5d4bd5916701d90b3559b072acf7cef5b4fc5b8dcd",
+        "base": {
+          "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+          "symbol": "SPY",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0xA0E8fBFf13E24Af2b5e61A72800E08a161bDe080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "SPDR S&P 500 ETF Trust",
+        "assetClass": "ETF",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "etf",
+          "shares": 1052580000.0
+        }
+      },
+      {
+        "id": "0xd5effce87036cd858146c0c15fa825c231a9de1843200ca108e431e431331e8e",
+        "base": {
+          "address": "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+          "symbol": "TSLA",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x67D86050d22D574Df046F3D90F722045F714e080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "Tesla, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 3949547394
+        }
+      },
+      {
+        "id": "0xa2347ba69167e5602f74640ffbf737ee7cdd825e4726d3462564fc6533070147",
+        "base": {
+          "address": "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+          "symbol": "AAPL",
+          "decimals": 18,
+          "uiMultiplier": 1000566080061092436,
+          "multiplier": "1000566080061092436"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x70a9A88402989226847Ec122043CE5e7FF462080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "Apple Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 14594180000.0
+        }
+      },
+      {
+        "id": "0xbac3aa3b91584a53a579b3c999a56756e954e59247e497bad1d25a4334bde551",
+        "base": {
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "bandBps": 5,
+        "hook": "0x06a889870C8f83640D6816319f72e2aA579b6080",
+        "hookKind": "flat",
+        "flatPpm": 450,
+        "feeKeeper": true,
+        "category": "crypto",
+        "name": "Ethereum",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": false
+      },
+      {
+        "id": "0x988f3b6ceec4795e0d6d28a054af87ffbcbdeee2566f72ae391da5f109bd485f",
+        "base": {
+          "address": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+          "symbol": "NVDA",
+          "decimals": 18,
+          "uiMultiplier": 1000775159164630595,
+          "multiplier": "1000775159164630595"
+        },
+        "quote": {
+          "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+          "symbol": "SPY",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "NVDA-SPY",
+        "tickSpacing": 10,
+        "hook": "0x79576FBAD6e83915630BBB5D5658483F05532080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "NVIDIA Corporation",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0xfe281bbfa9aa658c1aa9c2ad1b0c62c4286f96c7cb1074296b54e869935a7a3a",
+        "base": {
+          "address": "0xC9a981FEE1F9DEc688bb123ccDeCc63D0deBFC4e",
+          "symbol": "GLD",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0xB608a78761f179f7C56f15E7D13921B92F00a080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "SPDR Gold Shares",
+        "assetClass": "ETF",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "etf",
+          "shares": 368200000.0
+        }
+      },
+      {
+        "id": "0x4ac4259eb99dce57268a856719d087fa1a53569b2fed6f330aabe32d9a4aa4f5",
+        "base": {
+          "address": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+          "symbol": "META",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x8AF95932eC4484fb10C641a4cBcf19a798cB2080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "Meta Platforms, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 2550000000.0
+        }
+      },
+      {
+        "id": "0x118887805417a88865010dfe9ab3a516214e720aff2b01a19fcdb92b924c397f",
+        "base": {
+          "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+          "symbol": "SPY",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0xC9a981FEE1F9DEc688bb123ccDeCc63D0deBFC4e",
+          "symbol": "GLD",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "SPY-GLD",
+        "tickSpacing": 10,
+        "hook": "0xA4570C37590E45f0b06898123D4de16307A32080",
+        "hookKind": "calendar",
+        "category": "rwa",
+        "name": "SPDR S&P 500 ETF Trust",
+        "assetClass": "ETF",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x8651e656738064177752a395dbde2b2a9e3fc469edc2a9212e6060c0990bb7eb",
+        "base": {
+          "address": "0xb9972CA7188e511174947E3936a5315ac7073277",
+          "symbol": "PROLOGUE",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 25,
+        "fee": 2500,
+        "hook": "0x0000000000000000000000000000000000000000",
+        "hookKind": "none",
+        "category": "other",
+        "name": "The Prologue",
+        "assetClass": "Crypto",
+        "points": false,
+        "creatorFee": false
+      },
+      {
+        "id": "0x5619cb8420678b47997f20925eb01be8750c907d6226a0df5d7eafeff966346f",
+        "base": {
+          "address": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
+          "symbol": "AMZN",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Amazon.com, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 10786313572
+        }
+      },
+      {
+        "id": "0xb81d873dfb2bb1aaf08804053f8940fd06bb30a2b5a0fafcdbcc7325544452b9",
+        "base": {
+          "address": "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+          "symbol": "SPCX",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Space Exploration Technologies Corp.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 13570000000.0
+        }
+      },
+      {
+        "id": "0x16dce5f6a91bd93c2f5f05866dbb780afbe47d2776ea8dcdbb758efff57248a7",
+        "base": {
+          "address": "0xCceE82fE024c36fA15E1005edE3E9e4787e23D09",
+          "symbol": "HIMS",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Hims & Hers Health, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 233310000.0
+        }
+      },
+      {
+        "id": "0x6ef20273e821b24ca2b27861d700db239c5449f6446c91d13d9c2bc01c7b8bb9",
+        "base": {
+          "address": "0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B",
+          "symbol": "AMC",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "AMC Entertainment Holdings, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 892604638
+        }
+      },
+      {
+        "id": "0x31608601d541e868706aa557558a4d4f99c57e6dd13bd3362edcf05d00a16212",
+        "base": {
+          "address": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+          "symbol": "CASHCAT",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 3127,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "Cash Cat",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x486435a1f76cd58193f854c6e6213cd05fd58d637865d02065ff558b387fa6ea",
+        "base": {
+          "address": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+          "symbol": "PONS",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 3499,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "Pons",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x8660c1c24d58fdad98d9008be534240e5d79ece4d4d4ef16f215af001779ec1f",
+        "base": {
+          "address": "0x385F4f8ae47651ce5F58F5265395a669f8281e18",
+          "symbol": "MEME",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 7993,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "A Meme Coin",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0xbb15d6b62c893a86912b5d4b14599f9cc72111e5898327dcadefa0352f20ae11",
+        "base": {
+          "address": "0x1b0E319c6A659F002271B69dB8A7df2F911c153E",
+          "symbol": "GME",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 500,
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "GameStop Corp.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 448691257
+        }
+      },
+      {
+        "id": "0x01b71670a61dd9175a3d1e08d4e0af00ce71e76d230c92649f3ce9857f7d4abd",
+        "base": {
+          "address": "0x1D11f0496982706C5e14A514D4E79F2e6BdE4516",
+          "symbol": "DJT",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 20,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 2396,
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Trump Media & Technology Group Corp.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 277941274
+        }
+      },
+      {
+        "id": "0x422ed2d698601ea2114b103501e305ae7e3164f87079c72c626d2df832d74a0e",
+        "base": {
+          "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+          "symbol": "SPY",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0xD5f3879160bc7c32ebb4dC785F8a4F505888de68",
+          "symbol": "QQQ",
+          "decimals": 18,
+          "name": "Invesco QQQ Trust, Series 1",
+          "assetClass": "ETF",
+          "facts": {
+            "kind": "etf",
+            "shares": 675650000.0
+          },
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "SPY-QQQ",
+        "tickSpacing": 1,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 625,
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "SPDR S&P 500 ETF Trust",
+        "assetClass": "ETF",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x31f8624041c93e2abd0fb23540d259b069fa76c053eb7e3f5abc754d7194726b",
+        "base": {
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B",
+          "symbol": "AMC",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "ETH-AMC",
+        "tickSpacing": 60,
+        "hook": "0xcA89f079AF00f752bfD3C345358Dc38d4d73e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "crypto",
+        "name": "Ethereum",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0xb59001413cb070e28433826f927b7265a0813213ba21f454d86896cee3cce674",
+        "base": {
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+          "symbol": "PONS",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "ETH-PONS",
+        "tickSpacing": 60,
+        "hook": "0x594e8e6281eDf2d363a0293a50004Cf868E7a080",
+        "hookKind": "flat",
+        "flatPpm": 3000.0,
+        "withdrawAndClaim": true,
+        "category": "crypto",
+        "name": "Ethereum",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0xe85f633a1374ee279140fa997b547d6a2ccd94fc5eae0e98f7d15ce0e3ddfa93",
+        "base": {
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
+          "symbol": "AI",
+          "decimals": 18,
+          "name": "Artificial Inu",
+          "assetClass": "Crypto",
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "ETH-AI",
+        "usdVia": "base",
+        "tickSpacing": 200,
+        "hook": "0x594e8e6281eDf2d363a0293a50004Cf868E7a080",
+        "hookKind": "flat",
+        "flatPpm": 2700,
+        "withdrawAndClaim": true,
+        "category": "crypto",
+        "name": "Ethereum",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x592e3fb7ea947506b36481025abc15baada8e1839a50fded46ecf08b3182fa96",
+        "base": {
+          "address": "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
+          "symbol": "AI",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 2600,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "Artificial Inu",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x6b187fad6ca2dcb913f2451c5d5e24d3d77b9d09ce272c2c99f64dac672bc485",
+        "base": {
+          "address": "0xD9dB30BB0D2b8d2eae3826A1372117E058791e18",
+          "symbol": "MOO",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 200,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 16000.0,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "Memory cow Moo",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x4e2a7c0057cec67170ee71641d23d0e835afb6f1deb6b4c6a182b4c16ec8f594",
+        "base": {
+          "address": "0x7dbf38976f6D3b9c529e7D9484A71898B409eE6a",
+          "symbol": "ZZZ",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 200,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 16000.0,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "ZZZ",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0xc761f7de760d2b73cc3e3cc3d729916a4ed2f7fc6b0aa3872e2ced4258961e92",
+        "base": {
+          "address": "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
+          "symbol": "ORBIO",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 200,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 30000.0,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "Orbio.so",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x8fb2273e40a44bd4b442bf7f24b953e46a7ecae7384038b266008ae44ebe62be",
+        "base": {
+          "address": "0x56910D4409F3a0C78C64DD8D0545FF0705389870",
+          "symbol": "INDEX",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 120,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 6000.0,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "The Index",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x4aaa4f57bec2b6e67dac42909c8c4f9a6ddaf02bb63f8dcbbafb35316731d2a7",
+        "base": {
+          "address": "0x812486EAea648819853F8E372dc9f1516C7868Bd",
+          "symbol": "UBIK",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 200,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 15000.0,
+        "withdrawAndClaim": true,
+        "category": "meme",
+        "name": "ubik",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0xf50a897ae1b4dfdac5a8d573f0d0f59c75832b7832b7e631e1192d1e64019039",
+        "base": {
+          "address": "0xCEC185eB182c47d1bA1EFc84e6959e18cd620Be4",
+          "symbol": "cbBTC",
+          "decimals": 8,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 10,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 1200,
+        "withdrawAndClaim": true,
+        "category": "crypto",
+        "name": "Coinbase Wrapped BTC",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x286f707c75266f4633638e557c6ada1bd4c58c3d533badb8c440a851f0940aa2",
+        "base": {
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+          "symbol": "CASHCAT",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "slug": "ETH-CASHCAT",
+        "tickSpacing": 60,
+        "hook": "0x594e8e6281eDf2d363a0293a50004Cf868E7a080",
+        "hookKind": "flat",
+        "flatPpm": 10000.0,
+        "withdrawAndClaim": true,
+        "category": "crypto",
+        "name": "Ethereum",
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true
+      },
+      {
+        "id": "0x8e36bc9877b9383ae306dd937d40ab0e9df65811e7fdfb6bad25e7102bc398b2",
+        "base": {
+          "address": "0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD",
+          "symbol": "MU",
+          "decimals": 18,
+          "uiMultiplier": 1000074823219171086,
+          "multiplier": "1000074823219171086"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Micron Technology, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock",
+          "shares": 1129393151,
+          "sharesAsOf": "17 Jun 2026"
+        }
+      },
+      {
+        "id": "0x6948116f31d66206c10fc6aa6eff7e58842f2fb4dc32533f972a1cd50ed77e02",
+        "base": {
+          "address": "0x2D427692E928fa156ec22acfaBaFA0447C5805B7",
+          "symbol": "GLXY",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Galaxy Digital Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock"
+        }
+      },
+      {
+        "id": "0xdb9c34002d173981250969293af6f43f42a26f2110f19893bbe2ad373375e9e6",
+        "base": {
+          "address": "0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5",
+          "symbol": "CRCL",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Circle Internet Group, Inc.",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock"
+        }
+      },
+      {
+        "id": "0xe1c3e133c917674bd51704e47c7dfe7f0d66375c89ceb30b083de95f9a1dc5ea",
+        "base": {
+          "address": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+          "symbol": "MSTR",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 60,
+        "hook": "0x5Eb87F69bE00Df39981622Fd60A8De4b7837e080",
+        "hookKind": "calendar",
+        "withdrawAndClaim": true,
+        "category": "rwa",
+        "name": "Strategy Inc",
+        "assetClass": "Stock",
+        "points": true,
+        "creatorFee": true,
+        "facts": {
+          "kind": "stock"
+        }
+      },
+      {
+        "id": "0xf7e180365aed9c463022976c37c615f483bfbe57717b665deff31922c877c8b3",
+        "base": {
+          "address": "0xE77d354898A44808ff3999947002785CD727BEd5",
+          "symbol": "SFI",
+          "decimals": 18,
+          "multiplier": "1000000000000000000"
+        },
+        "quote": {
+          "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+          "symbol": "USDG",
+          "decimals": 6,
+          "multiplier": "1000000000000000000"
+        },
+        "tickSpacing": 200,
+        "hook": "0x08E52564Bad99E05a694b4809F397edcA417A080",
+        "hookKind": "flat",
+        "flatPpm": 10000.0,
+        "withdrawAndClaim": true,
+        "category": "crypto",
+        "name": "Saffron Finance",
+        "facts": {
+          "kind": "partner",
+          "shares": 80096,
+          "sharesAsOf": "18 Sep 2026",
+          "website": "https://saffron.finance",
+          "blurb": "Saffron builds onchain fixed income vaults that split Uniswap fees into PT/YT style yield."
+        },
+        "assetClass": "Crypto",
+        "points": true,
+        "creatorFee": true,
+        "incentive": {
+          "token": "USDG",
+          "weekly": {
+            "4": 2000.0,
+            "5": 2000.0
+          }
+        }
+      }
+    ],
+    "rewards": {
+      "start": 1788141600.0,
+      "weekly": [
+        600,
+        3000.0,
+        5000.0,
+        5000.0,
+        5000.0
+      ]
+    }
+  },
+  "fetchedAt": 1789948800
+}
